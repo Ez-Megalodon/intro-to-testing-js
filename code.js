@@ -10,4 +10,15 @@ function sayHello (input) {
         return "Hello, " + input + "!"
     }
 }
-sayHello();
+
+function isFive (input) {
+    if (parseFloat(input) === !NaN) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isEven () {
+
+}
